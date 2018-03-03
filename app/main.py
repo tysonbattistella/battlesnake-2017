@@ -33,7 +33,7 @@ def start():
     head_url = 'https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/nail-polish_1f485.png'
 
     return {
-        'color': '#4d3ae2',
+        'color': '#f9ccca',
         'taunt': 'ha',
         'head_url': head_url,
         'name': '💅',
