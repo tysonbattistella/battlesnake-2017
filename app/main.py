@@ -30,13 +30,13 @@ def start():
     board_width = data['width']
     board_height = data['height']
 
-    head_url = 'https://cdn.shopify.com/s/files/1/1061/1924/products/Heart_Eyes_Emoji_2.png?v=1485573458'
+    head_url = 'https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/nail-polish_1f485.png'
 
     return {
         'color': '#4d3ae2',
         'taunt': 'ha',
         'head_url': head_url,
-        'name': '😍',
+        'name': '💅',
         'head_type': 'fang',
         'tail_type': 'block-bum'
     }
