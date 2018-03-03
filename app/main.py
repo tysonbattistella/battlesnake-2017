@@ -266,7 +266,7 @@ def move():
 
     moves = available if len(available) > 0 else better_moves
     moves = sort_moves(moves)
-    return {'move': move.direction, 'taunt': str(get_move_weights(moves[:3]))}
+    return {'move': move.direction, 'taunt': '💅'*game.turn}
 
 
 # Expose WSGI app (so gunicorn can find it)
